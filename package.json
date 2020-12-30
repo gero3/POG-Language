@@ -1,0 +1,28 @@
+{
+  "name": "pog-language",
+  "version": "0.0.1",
+  "description": "A DSL programming Language for superoptimisations",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint & mocha",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gero3/POG-Language.git"
+  },
+  "author": "gero3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gero3/POG-Language/issues"
+  },
+  "homepage": "https://github.com/gero3/POG-Language#readme",
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-mdcs": "^5.0.0",
+    "mocha": "^8.2.1"
+  },
+  "eslintConfig": {
+    "extends": "mdcs"
+  }
+}
