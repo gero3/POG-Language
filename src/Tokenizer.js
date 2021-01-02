@@ -7,7 +7,7 @@ class Tokenizer {
 		this.options = TokenizerOptions | {};
 
 	}
-	Tokenize( text ) {
+	tokenize( text ) {
 
 		var result = [];
 		var index = 0;
